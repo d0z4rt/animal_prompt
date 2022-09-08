@@ -96,7 +96,7 @@ if (!is_null($directory)) {
   }
 
   if (count($images) === 0) {
-    $placeholder = "Empty directory";
+    $placeholder = "Be the first to upload it!";
   }
 
   ob_start();
