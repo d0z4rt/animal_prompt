@@ -1,11 +1,14 @@
 <section>
   <?php foreach ($images as $img) {
+    $username = preg_replace('/^[0-9]{8}_[0-9]{6}_/', '', $img);
+    $username = preg_replace('/\.[a-z]{3,4}$/', '', $username);
+
     echo "
     <article>
-    <img src=\"data/$directory/$img\" />
-    <span>by <b>Name of the dude who made it</b>
-    </span>
-    </article>";
+      <img src=\"data/$directory/$img\" />
+      <span>by <b>$username</b></span>
+    </article>
+    ";
   } ?>
 
   <?php if (isset($placeholder)) {
