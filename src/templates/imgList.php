@@ -1,6 +1,11 @@
-<div>
+<section>
   <?php foreach ($images as $img) {
-    echo "<img src=\"data/$directory/$img\" />";
+    echo "
+    <article>
+    <img src=\"data/$directory/$img\" />
+    <span>by <b>Name of the dude who made it</b>
+    </span>
+    </article>";
   } ?>
 
   <?php if (isset($placeholder)) {
@@ -13,4 +18,4 @@
     <input name="img" type="file" required />
     <button>Valider</button>
   </form>
-</div>
+</section>
