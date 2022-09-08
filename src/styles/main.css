@@ -66,16 +66,24 @@ a:hover {
   background-color: hsl(240, 30%, 30%);
 }
 
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-content: flex-start;
   height: 100%;
+  width: 100%;
   padding: 0.25rem;
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
 article {
   display: flex;
   flex-direction: column;
@@ -95,9 +103,8 @@ span {
 }
 #add {
   position: absolute;
-  bottom: 0.25rem;
-  right: 0;
-  left: 0;
+  bottom: 1rem;
+  right: 1rem;
 
   display: flex;
   align-items: center;
@@ -119,12 +126,18 @@ span {
   position: absolute;
   inset: 0;
   display: none;
+  flex-direction: column;
   width: fit-content;
   height: fit-content;
   margin: auto;
   padding: 1rem;
   background-color: hsl(240, 30%, 30%);
   border-radius: 5px;
+}
+
+#form header {
+  justify-content: space-around;
+  align-items: center;
 }
 
 form {
@@ -136,8 +149,27 @@ label {
   margin-top: 1rem;
 }
 
-button {
+form button {
   margin-top: 1rem;
+}
+
+.error {
+  background-color: rgb(172, 58, 58);
+  justify-content: center;
+  align-content: center;
+}
+
+#popup_error {
+  position: absolute;
+  inset: 0;
+
+  height: fit-content;
+  width: fit-content;
+
+  margin: auto;
+  padding: 1rem;
+
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {

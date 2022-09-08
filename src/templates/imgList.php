@@ -16,6 +16,7 @@
   } ?>
 
   <div id="form">
+    <header>Upload your image <button onclick="closeForm()">close</button></header>
     <form method="POST" enctype="multipart/form-data">
       <label>Name</label>
       <input name="name" type="text" required />

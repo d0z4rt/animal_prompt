@@ -1,3 +1,3 @@
-<section>
-  <h1><?= $error ?></h1>
+<section class="error">
+  <h2><?= $error ?></h2>
 </section>

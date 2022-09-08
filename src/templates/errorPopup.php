@@ -1,3 +1,3 @@
-<div>
-  <h1><?= $error ?></h1>
+<div id="popup_error" class="error">
+  <h2><?= $error ?></h2>
 </div>
