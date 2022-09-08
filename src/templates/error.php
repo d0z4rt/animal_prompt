@@ -1,3 +1,3 @@
 <div>
-    <h1><?= $error ?></h1>
+  <h1><?= $error ?></h1>
 </div>
