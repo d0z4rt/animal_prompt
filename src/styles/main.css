@@ -48,9 +48,12 @@ a {
 
   border-radius: 3px;
   background-color: hsl(240, 30%, 20%);
+  color: inherit;
   cursor: pointer;
   font-weight: 700;
+  text-decoration: none;
   white-space: nowrap;
+  text-transform: capitalize;
 
   transition: all cubic-bezier(0.17, 0.67, 0.83, 0.67) 1s;
 }
@@ -66,6 +69,8 @@ a:hover {
 section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
   height: 100%;
   padding: 0.25rem;
   box-sizing: border-box;
@@ -74,6 +79,7 @@ section {
 article {
   display: flex;
   flex-direction: column;
+  height: fit-content;
   margin: 0.25rem;
   background-color: hsl(240, 30%, 20%);
   border-radius: 5px;
@@ -108,6 +114,32 @@ span {
   font-size: 1.2rem;
   border-radius: 5px;
 }
+
+#form {
+  position: absolute;
+  inset: 0;
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding: 1rem;
+  background-color: hsl(240, 30%, 30%);
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}
+
 @media screen and (max-width: 800px) {
   aside {
     display: none;

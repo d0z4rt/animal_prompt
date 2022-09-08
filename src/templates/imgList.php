@@ -12,10 +12,15 @@
     echo "<p>$placeholder</p>";
   } ?>
 
-  <form method="POST" enctype="multipart/form-data">
-    <input name="name" type="text" required />
-    <input name="pass" type="password" required />
-    <input name="img" type="file" required />
-    <button>Valider</button>
-  </form>
+  <div id="form">
+    <form method="POST" enctype="multipart/form-data">
+      <label>Name</label>
+      <input name="name" type="text" required />
+      <label>Image</label>
+      <input name="img" type="file" required />
+      <label>Password</label>
+      <input name="pass" type="password" required />
+      <button>Upload</button>
+    </form>
+  </div>
 </section>
