@@ -3,6 +3,7 @@
 $DATA_DIR = __DIR__ . '/data';
 $DEFAULT = null;
 $PASS = '1234';
+$title = '🦒 Giraffe';
 
 if (!is_dir($DATA_DIR)) {
   throw new Exception('Invalid Configuration');

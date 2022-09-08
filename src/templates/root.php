@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header>This week prompt is 🦒 Giraffe !</header>
+  <header>This week prompt is <?= $title ?> !</header>
   <div id="content">
     <?= $body ?>
   </div>
