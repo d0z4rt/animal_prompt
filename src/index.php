@@ -1,7 +1,7 @@
 <?php
 
 $DATA_DIR = __DIR__ . '/data';
-$DEFAULT = null;
+$DEFAULT = 'giraffe';
 $PASS = '1234';
 $title = '🦒 Giraffe';
 
