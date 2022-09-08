@@ -1,10 +1,16 @@
 <?php
 
 $DATA_DIR = __DIR__ . '/data';
+$DEFAULT = null;
 $PASS = '1234';
 
 if (!is_dir($DATA_DIR)) {
   throw new Exception('Invalid Configuration');
+}
+
+// redirect to avoid invalid directory on home page
+if (!is_null($DEFAULT) && $_SERVER['REQUEST_URI'] === '/') {
+  header("Location: /$DEFAULT");
 }
 
 // get current directory in URI
