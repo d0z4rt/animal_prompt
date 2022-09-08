@@ -1,6 +1,6 @@
 <div>
     <?php foreach ($images as $img) {
-        echo "<img src=\"$img\" />";
+        echo "<img src=\"data/$directory/$img\" />";
     } ?>
 
     <?php if (isset($placeholder)) {
