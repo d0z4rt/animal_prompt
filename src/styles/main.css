@@ -20,6 +20,14 @@ header {
 
   background-color: hsl(240, 30%, 20%);
 }
+
+#menu_button {
+  position: absolute;
+  left: 1rem;
+
+  display: none;
+}
+
 #content {
   display: flex;
   flex-wrap: nowrap;
@@ -200,7 +208,14 @@ form button {
 }
 
 @media screen and (max-width: 800px) {
-  aside {
+  #menu_button {
+    display: flex;
+  }
+  #menu {
+    position: absolute;
+    inset: 0;
+    top: 3rem;
+    height: calc(100% - 3rem);
     display: none;
   }
 }

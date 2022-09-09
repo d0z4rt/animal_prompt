@@ -1,3 +1,7 @@
+const openMenu = () => {
+  document.querySelector('#menu').style.display = 'flex'
+}
+
 const openForm = () => {
   document.querySelector('#form').style.display = 'flex'
   document.querySelector('#add').style.display = 'none'
