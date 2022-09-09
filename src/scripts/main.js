@@ -7,3 +7,11 @@ const closeForm = () => {
   document.querySelector('#form').style.display = 'none'
   document.querySelector('#add').style.display = 'flex'
 }
+
+const openWtf = () => {
+  document.querySelector('#wtf').style.display = 'flex'
+}
+
+const closeWtf = () => {
+  document.querySelector('#wtf').style.display = 'none'
+}
