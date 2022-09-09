@@ -12,7 +12,7 @@
   } ?>
 
   <?php if (isset($placeholder)) {
-    echo "<p>$placeholder</p>";
+    echo "<h3>$placeholder</h3>";
   } ?>
 
   <div id="form">

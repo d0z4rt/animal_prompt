@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header><button id="menu_button" onclick="openMenu()">Menu</button> week prompt is <?= $title ?> !</header>
+  <header><button id="menu_button" onclick="openMenu()">Menu</button> This week prompt is <?= $title ?> !</header>
   <div id="content">
     <?= $body ?>
   </div>

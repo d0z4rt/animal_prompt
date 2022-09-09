@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background-color: hsl(240, 30%, 10%);
+  background-color: hsl(240, 20%, 10%);
   color: rgb(224, 209, 194);
   font-family: sans-serif;
   font-size: 16px;
@@ -18,7 +18,7 @@ header {
 
   height: 3rem;
 
-  background-color: hsl(240, 30%, 20%);
+  background-color: hsl(240, 20%, 20%);
 }
 
 #menu_button {
@@ -39,7 +39,7 @@ aside {
   width: max-content;
   height: 100%;
   box-sizing: border-box;
-  background-color: hsl(240, 30%, 15%);
+  background-color: hsl(240, 20%, 15%);
 }
 nav {
   display: flex;
@@ -55,7 +55,7 @@ a {
   padding: 0.5rem 1rem;
 
   border-radius: 3px;
-  background-color: hsl(240, 30%, 20%);
+  background-color: hsl(240, 20%, 20%);
   color: inherit;
   cursor: pointer;
   font-weight: 700;
@@ -68,10 +68,10 @@ a {
 a:hover {
   padding: 1rem;
   transition: all cubic-bezier(0.17, 0.67, 0.83, 0.67) 0.3s;
-  background-color: hsl(240, 30%, 50%);
+  background-color: hsl(240, 20%, 50%);
 }
 .active {
-  background-color: hsl(240, 30%, 30%);
+  background-color: hsl(240, 20%, 30%);
 }
 
 h2 {
@@ -97,7 +97,7 @@ article {
   flex-direction: column;
   height: fit-content;
   margin: 0.25rem;
-  background-color: hsl(240, 30%, 20%);
+  background-color: hsl(240, 20%, 20%);
   border-radius: 5px;
   overflow: hidden;
 }
@@ -148,7 +148,7 @@ span {
   height: fit-content;
   margin: auto;
   padding: 1rem;
-  background-color: hsl(240, 30%, 30%);
+  background-color: hsl(240, 20%, 30%);
   border-radius: 5px;
 }
 
@@ -198,7 +198,7 @@ form button {
   height: fit-content;
   margin: auto;
   padding: 1rem;
-  background-color: hsl(240, 30%, 30%);
+  background-color: hsl(240, 20%, 30%);
   border-radius: 5px;
 }
 
