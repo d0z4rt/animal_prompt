@@ -1,6 +1,6 @@
 # Animal Prompt
 
-Simple php website that scan through folders and image files to display them.
+Simple php website that scans through folders and image files to display them.
 Allow one to upload an image to the current selected folder with a password protection.
 
 # Initial Setup
